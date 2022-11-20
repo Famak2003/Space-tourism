@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+:root {
+    --color-moderate-cyan: hsl(176, 50%, 47%);
+    --color-dark-cyan: hsl(176, 72%, 28%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-dark-gray: hsl(0, 0%, 48%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(/design/home_background_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+.header_nav {
+    border: 1px solid blue;
+    padding: 4rem 0rem 4rem 4rem;
+}
+
+.container {
+    /* border: 1px solid red; */
+    /* padding: 2rem 0 0 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100rem; */
+}
+
+.logo {
+    transform: scale(.8);
+}
+
+.line {
+    right: 775px;
+    position: absolute;
+    z-index: 70;
+}
+
+.nav_links_background {
+    width: 55%;
+    height: 7rem;
+    border: 1px solid gray;
+    opacity: 1;
+    backdrop-filter: blur(50px);
+    -webkit-filter: blur(30px);
+}
+
+.nav_links {
+    position: absolute;
+    border: 1px solid slateblue;
+    right: 22rem;
+    display: flex;
+    gap: 5rem;
+    /* color: white; */
+}
+
+.nav_link {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.hero_section {
+    color: white;
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 10rem;
+    height: 60rem;
+    width: 150rem;
+}
+
+.hero_left {
+    border: 1px solid red;
+    width: 50%;
+    /* gap: 2rem; */
+}
+
+.hero_left p {
+    /* line-height: rem; */
+}
+
+.hero_right {
+    border: 1px solid green;
+    width: 50%;
+    align-items: center;
+}
+
+.back-ring {
+    width: 20rem;
+    /* display: none; */
+    height: 20rem;
+    display: none;
+}
+
+.hero_right a {
+    position: relative;
+    border: 1px solid blue;
+    background-color: white;
+    /* display: none; */
+    color: black;
+    font-size: 2rem;
+    top: 20rem;
+    left: 30rem;
+    padding: 9rem 6rem;
+    border-radius: 30rem;
+    /* opacity: 0.2; */
+    /* box-shadow: rgb(210, 219, 219) 0px 0px 0px 60px; */
+}
