@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body class="crew-back">
+    <header class="header">
+        <nav class="header_nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="/design/Group 2.svg" alt="" class="nav_logo">
+                </div>
+                <hr class="line">
+
+                <div class="nav_links_background">
+                    <ul class="nav_links">
+                        <li class="home links">
+                            <a href="main.html" class="nav_link "><span class='links-num'>00</span>HOME</a>
+                            <!-- <hr class="home-line links-line"> -->
+                        </li>
+                        <li class="destination links">
+                            <a href="destination.html" class="nav_link "><span class='links-num'>01</span>DESTINATION</a>
+                            <!-- <hr class="destination-line links-line"> -->
+                        </li>
+                        <li class="crew links">
+                            <a href="#" class="nav_link "><span class='links-num'>02</span>CREW</a>
+                            <hr class="crew-line links-line">
+                        </li>
+                        <li class="technology links">
+                            <a href="technology.html" class="nav_link "><span class='links-num'>03</span>TECHNOLOGY</a>
+                            <!-- <hr class="tech-line links-line"> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="crew_hero_section">
+            <div class="crew_hero">
+                <p class="crew_head"><span>02</span> MEET YOUR CREW</p>
+
+                <!-- --------- CREW-MININAV ------------ -->
+
+                <div class="commander">
+                    <div class="commander_write">
+                        <H2 class="cm">COMANDER</H2>
+                        <H1 class="dh">DOUGLAS HURLEY</H1>
+                        <P class="commander_sentence">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</P>
+                    </div>
+                    <div class="commander_img">
+                        <img class="com_img" src="/design/crew_img_1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="mission_specialist">
+                    <div class="mission_specialist_write">
+                        <H2 class="mission_s">MISSION SPECIALIST</H2>
+                        <H1 class="ms">MARK SHUTTLEWORTH</H1>
+                        <P class="mission_specialist_sentence">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubntu operting system. Shuttleworth became the first South African to travel to space as a space tourist.</P>
+                    </div>
+                    <div class="mission_spec_img">
+                        <img class="ms_img" src="/design/mission_specialist.png" alt="">
+                    </div>
+                </div>
+                <div class="pilot">
+                    <div class="pilot_write">
+                        <H2 class="pot">PILOT</H2>
+                        <H1 class="vg">VICTOR GLOVER</H1>
+                        <P class="pilot_sentence">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S Navy where he pilots an F/A-18.He was a crew member of the Expendition 64, and served as a station
+                            systems flight engineer.</P>
+                    </div>
+                    <div class="pilot_img">
+                        <img class="pot_img" src="/design/pilot.png" alt="">
+                    </div>
+                </div>
+                <div class="flight_engineer">
+                    <div class="flight_engineer_write">
+                        <H2 class="fe">FLIGHT ENGINEER</H2>
+                        <H1 class="aa">ANOUSHEH ANSARI</H1>
+                        <P class="flight_engineer_sentence">Anousheh Ansari is an Ireanian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</P>
+                    </div>
+                    <div class="flight_img">
+                        <img class="fe_img" src="/design/flight_engineer.png" alt="">
+                    </div>
+
+                </div>
+
+                <!-- --------- CREW BULLET-HOLES ----------- -->
+
+                <div class="bullet_holes">
+                    <span class="dot active" onclick="bullet_change(0)"></span>
+                    <span class="dot" onclick="bullet_change(1)"></span>
+                    <span class="dot" onclick="bullet_change(2)"></span>
+                    <span class="dot" onclick="bullet_change(3)"></span>
+                </div>
+            </div>
+
+    </main>
+    <script src="/app.js"></script>
+
+</body>
+
+</html>

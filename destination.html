@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body class="dest-back">
+    <header class="header">
+        <nav class="header_nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="/design/Group 2.svg" alt="" class="nav_logo">
+                </div>
+                <hr class="line">
+
+                <div class="nav_links_background">
+                    <ul class="nav_links">
+                        <li class="home links">
+                            <a href="main.html" class="nav_link "><span class='links-num'>00</span>HOME</a>
+                            <!-- <hr class="home-line links-line"> -->
+                        </li>
+                        <li class="destination links">
+                            <a href="#" class="nav_link "><span class='links-num'>01</span>DESTINATION</a>
+                            <hr class="destination-line links-line">
+                        </li>
+                        <li class="crew links">
+                            <a href="crew.html" class="nav_link "><span class='links-num'>02</span>CREW</a>
+                            <!-- <hr class="crew-line links-line"> -->
+                        </li>
+                        <li class="technology links">
+                            <a href="/technology.html" class="nav_link "><span class='links-num'>03</span>TECHNOLOGY</a>
+                            <!-- <hr class="tech-line links-line"> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="dest_hero_section">
+            <div class="dest_hero_left">
+                <p><span>01</span> PICK YOUR DESTINATION</p>
+                <div class="des_img">
+                    <img src="/design/destination-astro-body.png" alt="The moon" class="dest_hero_left_img moon">
+                    <img src="/design/mars.png" alt="Mars" class="dest_hero_left_img mars">
+                    <img src="/design/europa.png" alt="Europa" class="dest_hero_left_img europa">
+                    <img src="/design/titan.png" alt="Titan" class="dest_hero_left_img titan">
+                </div>
+
+
+
+            </div>
+            <div class="dest_hero_right">
+                <ul class="dest_right_mini_nav">
+                    <li onclick="des_minnav_click('moon')">MOON
+                        <hr class="moon_line moon">
+                    </li>
+                    <li onclick="des_minnav_click('mars')">MARS
+                        <hr class="mars_line mars">
+                    </li>
+                    <li onclick="des_minnav_click('europa')">EUROPA
+                        <hr class="europa_line europa">
+                    </li>
+                    <li onclick="des_minnav_click('titan')">TITAN
+                        <hr class="titan_line titan">
+                    </li>
+                </ul>
+                <div class="moon">
+                    <h1>MOON</h1>
+                    <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    <hr class="main_right_line">
+                    <ul class="moon_dest_chart">
+                        <li>AVG. DISTANCE
+                            <h3>384,400 KM</h3>
+                        </li>
+                        <li>EST. TRAVEL TIME
+                            <h3>3 DAYS</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mars">
+                    <h1>MARS</h1>
+                    <p>Dont forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of Everest!</p>
+                    <hr class="main_right_line">
+                    <ul class="mars_dest_chart">
+                        <li>AVG. DISTANCE
+                            <h3>225 MIL.KM</h3>
+                        </li>
+                        <li>EST. TRAVEL TIME
+                            <h3>9 MONTHS</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="europa">
+                    <h1>EUROPA</h1>
+                    <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream. With an icy surface, its perfect for a bit of skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                    <hr class="main_right_line">
+                    <ul class="europa_dest_chart">
+                        <li>AVG. DISTANCE
+                            <h3>628 MIL.KM</h3>
+                        </li>
+                        <li>EST. TRAVEL TIME
+                            <h3>3 YEARS</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="titan">
+                    <h1>TITAN</h1>
+                    <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home(just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                    <hr class="main_right_line">
+                    <ul class="titan_dest_chart">
+                        <li>AVG. DISTANCE
+                            <h3>1.6 BIL.KM</h3>
+                        </li>
+                        <li>EST. TRAVEL TIME
+                            <h3>7 YEARS</h3>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <script src="/app.js"></script>
+</body>
+
+</html>
